@@ -1,6 +1,6 @@
 //-----------gallery big pics--------------------------------//
 $(document).ready(function() {
-    	
+
 	var $currproject = 1;
     	var $currproject_slide = 1;
 	var $currslide_nums= 3;
@@ -143,7 +143,7 @@ $(document).ready(function() {
  });//document.ready
  //---------------new gallery-----------------
  $(function(){
-    $('#Grid').mixitup();  
+    $('#Grid').mixitup();
 });
  $('#Grid').mixitup({
     targetSelector: '.mix',

@@ -222,10 +222,14 @@ padding-left: 0px;
 	cursor:pointer;
 }}
 /*----project styles-------*/
+#Grid .mix{
+	display: none;
+}
 .mix{
 	margin:0px;
 	height:auto;
 	cursor:pointer;
+	/*display: -webkit-inline-box;*/
 }
 @media (min-width: 168px){
 .mix{
