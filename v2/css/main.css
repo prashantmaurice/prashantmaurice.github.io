@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+html{height:100%}
+body {
+    margin-top: 0px;
+    background-color: #b2b6b7;
+    font-family: 'Sintony', sans-serif;
+    height:100%;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 0px;
+    }
+}
+
+#wrapper {
+    height: 100%;
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #page-wrapper {
+        padding: 0px;
+    }
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 0px;
+        left: 200px;
+        width: 200px;
+        height:100%;
+        margin-left: -200px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #31393c;
+    }
+    .side-nav>li{width:100%}
+    .side-nav>li>a {
+        width: 200px;
+        background-color: #31393c;
+        color:#ddd;
+        font-size: 1em;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+    .side-nav>li>a.active {
+        background-color: #27b2b1;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #27b2b1 !important;
+    }
+    #side-logo{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 2em;
+        text-align: center;
+        background-color: #fff;
+        color:#444;
+    }
+}
+@media(max-height:421px) {
+    #side-logo{display: none}
+}
+.navbar{
+    min-height: 0px;
+}
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 0px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+/*-----ABOUT PAGE------*/
+#about-page{
+    background-image: url("../img/aboutBW.jpg");
+    height: 100%;
+    background-size: cover;
+    font-family: 'Fjalla One', sans-serif;
+}
+/*-----SKILLS PAGE------*/
+#skills-page{
+    background-image: url("../img/aboutBW.jpg");
+    height: 100%;
+    background-size: cover;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-bottom-color: #27b2b1;
+    position: absolute;
+    float: left;
+    margin: 2px;
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-top-color: #27b2b1;
+}
+.diamond-content:hover{
+    color:#000;
+}
+.diamond-content{
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: -100px;
+    width: 200px;
+    height:200px;
+}
+.diamond-content2{
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 89px;
+}
+
+/*-----CONTACT PAGE------*/
+#contact-page{
+    background-image: url("../img/portfolio_mapbackground2.jpg");
+    height: 100%;
+    background-size: cover;
+}
+#contact-page h4{font-size: 1em}
+#contact-page span{font-size: 0.8em; color: #999;}
+.bg-white{background-color: #fff;}
+.btn{ border-radius: 0px; }
+.input-group-custom{
+    height: 46px;
+    padding: 4px 6px;
+    font-size: 18px;
+    line-height: 1.33;width: 100%;
+}
+.input-group-custom>.input-group-addon{
+    border-radius: 0px;background-color: #fff;
+}
+.input-group-custom>input{border-radius: 0px;padding: 28px;}
+.input-group-custom>textarea{border-radius: 0px;padding: 28px;height:124px}
+.submit-contact{padding:10px;width:100%; height: 58px;}
