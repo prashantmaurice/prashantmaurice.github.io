@@ -304,6 +304,12 @@ ul.alert-dropdown {
 #androidProjectMobiframe::-webkit-scrollbar {
     display: none;
 }
+/*------RESUME PAGE----------*/
+#resumeiFrame{
+    width:80%;
+    height: 100%;
+    left:0px;
+}
 /*-----SHOWREEL PAGE--------*/
 #showreel-page{
     background-color: #000;

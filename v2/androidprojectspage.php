@@ -15,7 +15,7 @@
                         for ($x=1; $x<=$number; $x++) {
                             echo '<li class="projectslist_li androidProject" data-link="'.$projects[$x]['link'].'" data-video="'.$projects[$x]['video'].'">';
                     echo '<h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6>';
-                    echo '<br>'.$projects[$x]['description'].'</li>';
+                    echo '<br>'.$projects[$x]['oneliner'].'</li>';
                     }
                     ?>
                 </ul>

@@ -22,7 +22,7 @@ function reloadFunctions(){
         var link = $(e.currentTarget).data("link");
         $('#scaled-frame').attr('src',link)
     });
-    $('#mobileiframeWrapper').width($('#mobileiframeWrapper').height()*0.46);
+    $('#mobileiframeWrapper').width($('#mobileiframeWrapper').height()*0.50);
     $(".androidProject").click(function(e){
         $('.androidProject').removeClass('active');
         $(e.target).addClass('active');

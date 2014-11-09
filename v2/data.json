@@ -152,17 +152,74 @@
         },
         {
             "projectName": "Preburn Mobile Website",
+            "oneliner":  "Made for startUp Preburn",
             "description": "Made for startUp Preburn",
             "role": "Java Developer",
             "link":"./projects/preburnMobile/",
             "video":""
         },
         {
-            "projectName": "Android puzzle game",
-            "description": "made using libGDX framework",
+            "projectName": "BOXED",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
             "role": "Java Developer",
             "link":"",
-            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA"
+            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "DASH",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/_vImarmGbWk?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "FLYP",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "GYRO",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/aS3tjFiSUpE?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "PLANARITY",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "SPEEDBOAT",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/UDZOZaeZJNY?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
+        },
+        {
+            "projectName": "DEMONBIRD",
+            "oneliner": "Android game",
+            "description": "Android puzzle made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA",
+            "apk":""
         }
     ],
     "codeprojects": [

@@ -24,7 +24,7 @@
 <div id="wrapper">
     <?php include('nav.php'); ?>
     <div id="page-wrapper">
-        <?php include('androidprojectspage.php'); ?>
+        <?php include('resumepage.php'); ?>
     </div>
     <div id="sideswipe-shadow"></div>
     <div id="sideswipe-content">
