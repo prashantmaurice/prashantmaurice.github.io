@@ -1,0 +1,187 @@
+{
+    "visualprojects": [
+        {
+            "projectName": "Leave this aside to eliminate confusion",
+            "description": "Leave this aside to eliminate confusion",
+            "role": "dummy"
+        },
+        {
+            "projectName": "RAFTAR PROMO VIDEO",
+            "role": "Web Developer",
+            "description": "<a href='https://www.youtube.com/watch?v=0g0a3xXS2Fc'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/0g0a3xXS2Fc",
+            "images": 3
+        },
+        {
+            "projectName": "3D ANIMATION",
+            "role": "DIrector and Editor",
+            "description": "<a href='https://www.youtube.com/watch?v=v1Lmo72rkcs'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/v1Lmo72rkcs",
+            "images": 3
+        },
+        {
+            "projectName": "SHAASTRA PROMO VIDEO",
+            "role": "DIrector and Editor",
+            "description": "<a href='https://www.youtube.com/watch?v=akfriRtEPNk&feature=youtu.be'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/akfriRtEPNk",
+            "images": 3
+        },
+        {
+            "projectName": "VISITING CARD DESIGNS",
+            "role": "Editor &amp; Director",
+            "description": "",
+            "videoLink": "",
+            "images": 3
+        },
+        {
+            "projectName": "EXTRA MURAL LECTURES - POSTERS & BANNERS",
+            "role": "Promo Teaser",
+            "description": "Indian Institute of Technology - Madras",
+            "videoLink": "",
+            "images": 6
+        },
+        {
+            "projectName": "3D HOLOGRAM",
+            "role": "3D  Modelling",
+            "description": "<a href='https://www.youtube.com/watch?v=cIgmyGMIL_U'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/cIgmyGMIL_U",
+            "images": 3
+        },
+        {
+            "projectName": "JERSEY DESIGNS",
+            "role": "Coming soon Teaser",
+            "description": "<a href=' '></a>",
+            "videoLink": "",
+            "images": 11
+        },
+        {
+            "projectName": "SHAASTRA PROMO VIDEO",
+            "role": "Graphic Designer",
+            "description": "<a href='https://www.youtube.com/watch?v=BDTqnlMdO2k'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/BDTqnlMdO2k",
+            "images": 3
+        },
+        {
+            "projectName": "EXTRA MURAL LECTURES  - PROMO VIDEO",
+            "role": "Posters &amp; Banners",
+            "description": "<a href='https://www.youtube.com/watch?v=Dq39FfJysaQ&feature=youtu.be'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/Dq39FfJysaQ&feature=youtu.be",
+            "images": 3
+        },
+        {
+            "projectName": "RAFTAR  LOGO & BROCHURE",
+            "role": "Motion Graphics",
+            "description": "",
+            "videoLink": "",
+            "images": 3
+        },
+        {
+            "projectName": "RAFTAR MAIN WEBSITE",
+            "role": "for our Hostel",
+            "description": "Official Formula SAE racing team of IIT madras",
+            "videoLink": "",
+            "images": 3
+        },
+        {
+            "projectName": "ROBBIN BAKERS",
+            "role": "Promo Teaser",
+            "description": "Startup based in Guntur, Andhra Pradesh",
+            "videoLink": "",
+            "images": 4
+        },
+        {
+            "projectName": "SYNCWITS",
+            "role": "Promo video",
+            "description": "An online Education Portal",
+            "videoLink": "//www.youtube.com/embed/oJsfhExoJGU?list=UUwmyhFYwklURw5ByrhX6goA",
+            "images": 5
+        },
+        {
+            "projectName": "SYNCWITS",
+            "role": "Logo &amp; Brochure",
+            "description": "Front End designer",
+            "videoLink": "",
+            "images": 4
+        },
+        {
+            "projectName": "WE THE CHANGE MISSION",
+            "role": "Website",
+            "description": "An NGO aimed at providing educaton to the unfortunate with more than 26 branches all over India",
+            "videoLink": "",
+            "images": 6
+        },
+        {
+            "projectName": "NCSHS",
+            "role": "web developer",
+            "description": "National organisation that predicts and protects  Heritage structures from earthquakes, weather, soil sinkage",
+            "videoLink": "",
+            "images": 5
+        },
+        {
+            "projectName": "PREPFACTOR",
+            "role": "Intro page",
+            "description": "<a href=''>Online Mock exam Portal</a>",
+            "videoLink": "",
+            "images": 5
+        },
+        {
+            "projectName": "SYNCWITS",
+            "role": "Frontend webdesigner",
+            "description": "<a href='https://www.youtube.com/watch?v=oJsfhExoJGU'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/oJsfhExoJGU",
+            "images": 5
+        },
+        {
+            "projectName": "DHRUVA",
+            "role": "Web developer",
+            "description": "<a href='https://www.youtube.com/watch?v=JtOk8tkmu3Q'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/JtOk8tkmu3Q",
+            "images": 3
+        },
+        {
+            "projectName": "SHAASTRA",
+            "description": "<a href='https://www.youtube.com/watch?v=skk-jFSVWK4'>Click here to watch this video</a>",
+            "videoLink": "//www.youtube.com/embed/skk-jFSVWK4",
+            "role": "Graphic Designer",
+            "images": 4
+        }
+    ],
+    "androidprojects": [
+        {
+            "projectName": "Leave this aside to eliminate confusion"
+        },
+        {
+            "projectName": "Preburn Mobile Website",
+            "description": "Made for startUp Preburn",
+            "role": "Java Developer",
+            "link":"./projects/preburnMobile/",
+            "video":""
+        },
+        {
+            "projectName": "Android puzzle game",
+            "description": "made using libGDX framework",
+            "role": "Java Developer",
+            "link":"",
+            "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA"
+        }
+    ],
+    "codeprojects": [
+        {
+            "projectName": "Leave this aside to eliminate confusion"
+        },
+        {
+            "projectName": "Preburn Website",
+            "description": "Made for startUp Preburn",
+            "role": "Java Developer",
+            "time":"sep 2013",
+            "link":"http://www.preburn.in"
+        },
+        {
+            "projectName": "Annapurna foundation",
+            "description": "an NGO with over 26 centers in india",
+            "role": "Tech lead",
+            "time":"sep 2013",
+            "link":"http://www.annapurnafoundation.com"
+        }
+    ]
+}

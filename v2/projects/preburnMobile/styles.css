@@ -1,0 +1,138 @@
+body{
+    background-color: #fff;
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color: #aaa;
+}
+.tab{
+    width:auto;
+    margin: 0px;
+    background-color: #fff;
+    padding: 20px;
+}
+table{
+    width: 100%;
+}
+h5{
+    color: #0B92D1;
+    font-size: 1.2em;
+    padding: 0px;
+    margin: 0px;
+}
+h6{
+    color: #0B92D1;
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+.quotes{
+    display:none;
+}
+.logo_cont{
+//background-color: #002036;
+    background: url('./img/bg_intro.jpg');
+    background-size: 100%;
+}
+.color_bar{
+    height:10px;
+    background-color: #02569D;
+    width: 100%;
+}
+#intro-titles{
+    background-color: #00437B;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+}
+.section-title{
+    font-size: 2em;
+    color: #fff;
+    background-color: #023663;
+    border-bottom: 4px solid #0B92D1;
+    border-top: 4px solid #0B92D1;
+}
+.col-4{
+    width:33.33%;
+    display: inline-block;
+}
+.col-8{
+    width:66.67%;
+    display: inline-block;
+}
+/*-----------BENIFITS PAGE---------------------*/
+.icons1{
+    width:80%;
+}
+.table1 td{
+    vertical-align: top;
+    font-size: 0.6em;
+    padding-top:50px;
+    color: #aaa;
+    font-weight: 300;
+}
+.btn-blue{
+    width: 88%;
+    margin: 6%;
+    padding: 20px;
+    background-color: #0B92D1;
+    color:#fff;
+    border:0px;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+/*-----------------REACH PAGE-----------------*/
+.fnt-small{
+    font-size: 0.6em;
+    color: #aaa;
+    font-weight: 300;
+}
+.fnt-med{
+    font-size: 0.8em;
+    color: #aaa;
+    font-weight: 300;
+}
+#table2 .stores-num{
+    font-size: 5em;
+    color: #0B92D1;
+    line-height: 65px;/*-useful to remove unwanted padding around it--*/
+    text-align: right;
+}
+
+#table2 td{
+    vertical-align: bottom;
+    color: #aaa;
+    font-size: 0.8em;
+}
+/*------------------FEATURES PAGE---------------------------*/
+.list-features{
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.7em;
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #efefef;
+    margin: 1em 0; padding: 0; }
+/*-----------------CUSTOMERS---------------------------------------*/
+.clients-logos{
+    width: 90%;
+    padding: 5%;
+}
+#table-clients td{
+    padding-top:30px;
+
+}
+.address{
+    background-color: #222;
+    color: #fff;
+    font-size: 0.6em;
+}
+.footer{
+    background-color: #222;
+    color: #888;
+    font-size: 0.6em;
+    text-align: center;
+}

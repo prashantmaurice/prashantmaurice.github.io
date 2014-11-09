@@ -5,8 +5,10 @@
         <ul class="nav navbar-nav side-nav">
             <li id="side-logo">MAURICE</li>
             <li><a id="navbutton-aboutme" class="active">ABOUT ME</a></li>
-            <li><a id="navbutton-projects">PROJECTS</a></li>
-            <li><a id="navbutton-robotics">ROBOTICS</a></li>
+            <li><a id="navbutton-visualprojects">VISUALS</a></li>
+            <li><a id="navbutton-androidprojects">ANDROID</a></li>
+            <li><a id="navbutton-codeprojects">CODE</a></li>
+            <li><a id="navbutton-roboticsprojects">ROBOTICS</a></li>
             <li><a id="navbutton-skills">SKILLS</a></li>
             <li><a id="navbutton-showreel">SHOWREEL</a></li>
             <li><a id="navbutton-contact">CONTACT</a></li>

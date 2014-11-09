@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Preburn | An Offline App store</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,200' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="tab logo_cont" >
+    <img src="img/logo.png" style="margin:25%; width:50%">
+</div>
+<!-- <div class="color_bar"></div> -->
+<div class="tab" id="intro-titles">
+    <span class="quotes">Yay.! We got acquired by Freecharge.!!</span>
+    <span class="quotes">Stay tuned for more updates!</span>
+</div>
+<div class="tab section-title" style="border:none">Benefits</div>
+<div class="tab">
+    <table width="100%" class="table1" style="vertical-align:top">
+        <tr><td width="20%"><img src="img/g11.png" class="icons1"></td>
+            <td><h5>GET INITIAL AUDIENCE INSTANTLY</h5>Preburn allows your marketing team to focus on brand building activities while we get your app installed. Our offline Appstore lets you hit the critical mass point instantly.
+            </td></tr>
+        <tr><td width="20%"><img src="img/g22.png" class="icons1"></td>
+            <td><h5>WHY WASTE TIME SIGNING DEALS WITH OEMS?</h5>Why wait when Preburn can get your app installed across all the brands? Get started with Preburn within minutes.
+            </td></tr>
+        <tr><td width="20%"><img src="img/g33.png" class="icons1"></td>
+            <td><h5>SAVE MONEY FOR PRODUCT DEVELOPMENT</h5>Did we tell you that we charge one-fourth the market price for pre-burning your apps?
+            </td></tr>
+    </table>
+    <button class="btn-blue" id="btnpricing">SEE PRICING</button>
+</div>
+<div class="tab section-title">Reach</div>
+<div class="tab fnt-small" style="font-size:0.7em">We are young and we are fast.Our network of merchants is expanding rapidly everyday.Try the Preburn experience to add pace to your business.</div>
+<div class="tab">
+    <table id="table2">
+        <tr><td class="stores-num" width="">152</td><td>Stores</td></tr>
+        <tr><td class="stores-num">58</td><td>Retailers</td></tr>
+        <tr><td class="stores-num">4</td><td>Cities</td></tr>
+    </table>
+</div>
+<div class="tab fnt-med"><h5 style="">Cities:</h5>
+    Delhi- Chennai - Mumbai - Bengaluru</div>
+<div class="tab section-title">Features</div>
+<div class="tab">
+    <h6>USER MANAGMENT</h6>
+    <ul class="list-features"><li>Real Time Analytics</li>
+        <li>Locational Targeting</li>
+        <li>Device and OS Targeting</li>
+        <li>Multi-App mode</li>
+        <li>User Profiling</li>
+    </ul>
+    <hr style="">
+    <h6>USER ENGAGEMENT</h6>
+    <ul class="list-features"><li>In-Store Visibility</li>
+        <li>Promotional Push Notifications</li>
+        <li>After-Sales Calls</li>
+    </ul>
+</div>
+<div class="tab section-title">Contact Us</div>
+<div class="tab" style="">
+    <div style="width:100%; text-align:center"><h5>Dont Fret. Just Innovate</h5></div>
+    <div style="width:100%; text-align:center; font-size:0.7em">Big brands and small indie developers alike choose Preburn to acquire the initial set of users. Let us take care of your reach while you work towards building an awesome app.</div>
+</div>
+<!-- <div class="tab">
+    <table id="table-clients">
+        <tr><td width="50%"><img src="img/management-1.png" class="clients-logos"></td>
+            <td width="50%"><img src="img/management-2.png" class="clients-logos"></td></tr>
+        <tr><td width="50%"><img src="img/management-3.png" class="clients-logos"></td>
+            <td width="50%"><img src="img/management-5.png" class="clients-logos"></td></tr>
+        <tr><td width="50%"><img src="img/management-4.png" class="clients-logos"></td>
+            <td width="50%"></td></tr>
+    </table>
+</div> -->
+<div class="tab address" id="address">
+    <table><tr><td><img src="img/location.png" alt="" /></td><td>K255, SaritaVihar, NewDelhi, 110076</td></tr>
+        <tr><td><img src="img/phone.png" alt="" /></td><td>Call Us Now: <span>+91-8826188579</span></td></tr>
+        <tr><td><img src="img/mail.png" alt="" /></td><td>Mail us at: <span>business@preburn.in</span></td></tr></table>
+</div>
+<div class="footer">Preburn pvt ltd. © All Rights Resevered</div>
+
+<!--FINAL SCRIPTS-------------------------->
+<!--<script src="smartphone/js/jquery.min.js"></script>-->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        (function(){
+            var quotes = $(".quotes");
+            var quoteIndex = -1;
+            function showNextQuote() {
+                ++quoteIndex;
+                quotes.eq(quoteIndex % quotes.length)
+                        .fadeIn(1000)
+                        .delay(2000)
+                        .fadeOut(1000, showNextQuote);
+            }
+            showNextQuote();
+        })();
+        $('#btnpricing').click(function(){
+            var target = $("#address");
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
