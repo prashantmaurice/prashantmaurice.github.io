@@ -152,40 +152,43 @@ ul.alert-dropdown {
 }
 
 .diamond {
-    width: 0;
-    height: 0;
-    border: 100px solid transparent;
-    border-bottom-color: #27b2b1;
+    width: 140px;
+    height: 140px;
+    background-color: #27b2b1;
     position: absolute;
     float: left;
-    margin: 2px;
+    /*margin: 2px;*/
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    -webkit-transition: transform 1s,background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: transform 1s,background-color 1s;
 }
-.diamond:after {
-    content: '';
-    position: absolute;
-    left: -100px;
-    top: 100px;
-    width: 0;
-    height: 0;
-    border: 100px solid transparent;
-    border-top-color: #27b2b1;
-}
-.diamond-content:hover{
-    color:#000;
+.diamond:hover{
+    background-color: #232b2e;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
 }
 .diamond-content{
-    position: absolute;
-    z-index: 10;
-    top: 0px;
-    left: -100px;
-    width: 200px;
-    height:200px;
+    position: relative;
+    top:63px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+    -webkit-transition: transform 1s; /* For Safari 3.1 to 6.0 */
+    transition: transform 1s;
+}
+.diamond:hover .diamond-content{
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
 }
 .diamond-content2{
     vertical-align: middle;
     text-align: center;
     position: relative;
-    top: 89px;
+    /*top: 89px;*/
 }
 
 /*-----CONTACT PAGE------*/
