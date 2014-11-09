@@ -1,21 +1,22 @@
-<div id="home-page">
-    <div class="container-fluid">
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Blank Page
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li>
-                        <i class="fa fa-dashboard"></i>  <a href="index.php">Dashboard</a>
-                    </li>
-                    <li class="active">
-                        <i class="fa fa-file"></i> Blank Page
-                    </li>
-                </ol>
-            </div>
-        </div>
+<?php
+    $number = 20;
+?>
+<div id="projects-page">
+    <div class="container-fluid" style="height:100%; padding:0px">
+        <ul id="Grid" style="padding:0">
+            <?php
+               for ($x=1; $x<=$number; $x++) {
+                    $temp='';
+                    $temp .= '<li class="mix web" data-name="Abby" data-value="'.$x.'"  data-num="5">';
+                    $temp .= '<div style="position:relative"><div class="projects_overlay">';
+                    $temp .= '<div  align="center"><div  class="project_expandicon col-md-12" style="float:inherit"></div></div>';
+                    $temp .= '<div class="project_name">PREP FACTOR'.$x.'</div><div class="project_desc">Web Developer</div>';
+                    $temp .= '</div><img  class="media-object img-responsive" src="img/projects/dpm_project'.$x.'.jpg"></div>';
+                    $temp .= '</li>';
+                    echo $temp;
+                }
+            ?>
+
+        </ul>
     </div>
 </div>

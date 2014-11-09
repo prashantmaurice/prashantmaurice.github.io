@@ -24,7 +24,13 @@
 <div id="wrapper">
     <?php include('nav.php'); ?>
     <div id="page-wrapper">
-        <?php include('skillspage.php'); ?>
+        <?php include('projectspage.php'); ?>
+    </div>
+    <div id="sideswipe-shadow"></div>
+    <div id="sideswipe-content">
+        <div id="sideswipe">
+            DSAG
+        </div>
     </div>
     <!-- /#page-wrapper -->
 </div>
@@ -32,6 +38,7 @@
 <!-- lazy load scripts -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!--<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>-->
 <script src="js/main.js"></script>
 </body>
 </html>
