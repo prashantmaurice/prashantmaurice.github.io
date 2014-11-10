@@ -194,14 +194,15 @@ ul.alert-dropdown {
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
-    -webkit-transition: transform 1s,background-color 1s; /* For Safari 3.1 to 6.0 */
-    transition: transform 1s,background-color 1s;
+    -webkit-transition: transform 1s,background-color 1s, border-radius 1s; /* For Safari 3.1 to 6.0 */
+    transition: transform 1s,background-color 1s, border-radius 1s;
 }
 .diamond:hover{
     background-color: #232b2e;
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-    transform: rotate(-45deg);
+    -ms-transform: rotate(-360deg); /* IE 9 */
+    -webkit-transform: rotate(-360deg); /* Chrome, Safari, Opera */
+    transform: rotate(-360deg);
+    border-radius: 50%;
 }
 .diamond-content{
     position: relative;
@@ -213,9 +214,9 @@ ul.alert-dropdown {
     transition: transform 1s;
 }
 .diamond:hover .diamond-content{
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-    transform: rotate(45deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .diamond-content2{
     vertical-align: middle;
