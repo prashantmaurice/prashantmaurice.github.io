@@ -258,6 +258,13 @@
             "role": "Developer",
             "time":"sep 2013",
             "link":"./v1/"
+        },
+        {
+            "projectName": "We the Change Mission",
+            "description": "NGO",
+            "role": "Tech Lead",
+            "time":"sep 2013",
+            "link":"http://wethechangemission.org/"
         }
     ]
 }
