@@ -8,139 +8,150 @@
         {
             "projectName": "RAFTAR PROMO VIDEO",
             "role": "Web Developer",
-            "description": "<a href='https://www.youtube.com/watch?v=0g0a3xXS2Fc'>Click here to watch this video</a>",
+            "description": "This was a promo video made for the Formula Racing team of IIT Madras who has recently returned from their first ever performance in Germany. This was the major insight video into what was happening in team and their performance in the competition",
             "videoLink": "//www.youtube.com/embed/0g0a3xXS2Fc",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects", "Adobe Premiere pro"]
         },
         {
             "projectName": "3D ANIMATION",
-            "role": "DIrector and Editor",
-            "description": "<a href='https://www.youtube.com/watch?v=v1Lmo72rkcs'>Click here to watch this video</a>",
+            "role": "Director and Editor",
+            "description": "Inspired from Wall-E, This was a hobby project made to build a fully transformable robot, that can transform to a triangular box. This is a fully working prototype with all riggings intact.",
             "videoLink": "//www.youtube.com/embed/v1Lmo72rkcs",
-            "images": 3
+            "images": 3,
+            "tools":["3ds Max", "After Effects"]
         },
         {
             "projectName": "SHAASTRA PROMO VIDEO",
             "role": "DIrector and Editor",
-            "description": "<a href='https://www.youtube.com/watch?v=akfriRtEPNk&feature=youtu.be'>Click here to watch this video</a>",
+            "description": "This was the Teaser Video for Shaastra, Annual Technical festival of IIT Madras made entirely using after effects",
             "videoLink": "//www.youtube.com/embed/akfriRtEPNk",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "VISITING CARD DESIGNS",
             "role": "Editor &amp; Director",
             "description": "",
-            "videoLink": "",
-            "images": 3
+            "videoLink": "This was designed for Hostels of IIT Madras as a placeholder attached to each of the doors of respective students residing",
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "EXTRA MURAL LECTURES - POSTERS & BANNERS",
             "role": "Promo Teaser",
-            "description": "Indian Institute of Technology - Madras",
-            "videoLink": "",
-            "images": 6
+            "description": "Extra Mural Lectures is teh Only fully-Student Organised Lecture series in India. Being the Design Head of it, I had to Design various posters and banners for various events",
+            "images": 6,
+            "tools":["After Effects"]
         },
         {
             "projectName": "3D HOLOGRAM",
             "role": "3D  Modelling",
-            "description": "<a href='https://www.youtube.com/watch?v=cIgmyGMIL_U'>Click here to watch this video</a>",
+            "description": "Inspired from various si-fy movies, this hobby project has given quiet a surprising response for the concept and details involved",
             "videoLink": "//www.youtube.com/embed/cIgmyGMIL_U",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "JERSEY DESIGNS",
             "role": "Coming soon Teaser",
-            "description": "<a href=' '></a>",
-            "videoLink": "",
-            "images": 11
+            "description": "This were the various jersey designs made for printing IIT Madras Hostel Jerseys",
+            "images": 11,
+            "tools":["After Effects"]
         },
         {
             "projectName": "SHAASTRA PROMO VIDEO",
             "role": "Graphic Designer",
-            "description": "<a href='https://www.youtube.com/watch?v=BDTqnlMdO2k'>Click here to watch this video</a>",
+            "description": "Being the Videography Coordinator for Shaastra, the annual Technical festival of IIT Madras, the following teaser was made for publicity stunts",
             "videoLink": "//www.youtube.com/embed/BDTqnlMdO2k",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "EXTRA MURAL LECTURES  - PROMO VIDEO",
             "role": "Posters &amp; Banners",
-            "description": "<a href='https://www.youtube.com/watch?v=Dq39FfJysaQ&feature=youtu.be'>Click here to watch this video</a>",
+            "description": "Extra Mural Lectures is teh Only fully-Student Organised Lecture series in India. Being the Design Head of it, I had to create a Promo video for publicity purposes",
             "videoLink": "//www.youtube.com/embed/Dq39FfJysaQ&feature=youtu.be",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "RAFTAR  LOGO & BROCHURE",
-            "role": "Motion Graphics",
-            "description": "",
-            "videoLink": "",
-            "images": 3
+            "role": "Design Head",
+            "description": "Being the Design head of Official Formula SAE racing team of IIT madras, this are few brochure designs made for it. BTW did u find the awesome LOGO designed for it?",
+            "images": 3,
+            "tools":["After Effects"]
         },
         {
             "projectName": "RAFTAR MAIN WEBSITE",
-            "role": "for our Hostel",
-            "description": "Official Formula SAE racing team of IIT madras",
-            "videoLink": "",
-            "images": 3
+            "role": "Lead Web Developer",
+            "description": "Being the Design head of Official Formula SAE racing team of IIT madras, this was the website created as being a part of it",
+            "images": 3,
+            "tools":["HTML", "CSS", "Javascript"]
         },
         {
             "projectName": "ROBBIN BAKERS",
-            "role": "Promo Teaser",
-            "description": "Startup based in Guntur, Andhra Pradesh",
-            "videoLink": "",
-            "images": 4
+            "role": "Lead Web Developer",
+            "description": "Being the Tech Lead of a  Startup based in Guntur, Andhra Pradesh, the website was developed",
+            "images": 4,
+            "tools":["HTML", "CSS", "Javascript"]
         },
         {
             "projectName": "SYNCWITS",
-            "role": "Promo video",
-            "description": "An online Education Portal",
+            "role": "Front End Developer",
+            "description": "Being the Design Head of a startup that serves as a one stop online Connection portal with Alumni network, this coming soon landing page was developed",
             "videoLink": "//www.youtube.com/embed/oJsfhExoJGU?list=UUwmyhFYwklURw5ByrhX6goA",
-            "images": 5
+            "images": 5,
+            "tools":["HTML", "CSS", "Javascript","PHP","MySQL"]
         },
         {
             "projectName": "SYNCWITS",
-            "role": "Logo &amp; Brochure",
-            "description": "Front End designer",
-            "videoLink": "",
-            "images": 4
+            "role": "Main Website",
+            "description": "Being the Design Head of a startup that serves as a one stop online Connection portal with Alumni network, this was the website developed",
+            "images": 4,
+            "tools":["HTML", "CSS", "Javascript", "PHP"]
         },
         {
             "projectName": "WE THE CHANGE MISSION",
-            "role": "Website",
+            "role": "Lead Web Developer",
             "description": "An NGO aimed at providing educaton to the unfortunate with more than 26 branches all over India",
-            "videoLink": "",
-            "images": 6
+            "images": 6,
+            "tools":["HTML", "CSS", "Javascript","PHP","MySQL"]
         },
         {
             "projectName": "NCSHS",
-            "role": "web developer",
+            "role": "Lead Web developer",
             "description": "National organisation that predicts and protects  Heritage structures from earthquakes, weather, soil sinkage",
-            "videoLink": "",
-            "images": 5
+            "images": 5,
+            "tools":["HTML", "CSS", "Javascript","PHP","MySQL"]
         },
         {
             "projectName": "PREPFACTOR",
-            "role": "Intro page",
-            "description": "<a href=''>Online Mock exam Portal</a>",
-            "videoLink": "",
-            "images": 5
+            "role": "Developer",
+            "description": "This was a hobby project to conduct Online Exams built over PHP and MYSQL",
+            "images": 5,
+            "tools":["HTML", "CSS", "Javascript","PHP","MySQL"]
         },
         {
             "projectName": "SYNCWITS",
-            "role": "Frontend webdesigner",
-            "description": "<a href='https://www.youtube.com/watch?v=oJsfhExoJGU'>Click here to watch this video</a>",
+            "role": "Lead Designer",
+            "description": "Being the Design Head of a startup that serves as a one stop online Connection portal with Alumni network, this promo video was made to describe concept to Investors",
             "videoLink": "//www.youtube.com/embed/oJsfhExoJGU",
-            "images": 5
+            "images": 5,
+            "tools":["After Effects"]
         },
         {
             "projectName": "DHRUVA",
-            "role": "Web developer",
-            "description": "<a href='https://www.youtube.com/watch?v=JtOk8tkmu3Q'>Click here to watch this video</a>",
+            "role": "Videography Head ",
+            "description": "This was an event organised my IIT Madras as part of a personality development program. This was the official After Movie made for it ",
             "videoLink": "//www.youtube.com/embed/JtOk8tkmu3Q",
-            "images": 3
+            "images": 3,
+            "tools":["After Effects"]
+
         },
         {
             "projectName": "SHAASTRA",
-            "description": "<a href='https://www.youtube.com/watch?v=skk-jFSVWK4'>Click here to watch this video</a>",
+            "description": "Being the Videography Coordinator for Shaastra, the annual Technical festival of IIT Madras, the following teaser was made for publicity stunts",
             "videoLink": "//www.youtube.com/embed/skk-jFSVWK4",
             "role": "Graphic Designer",
             "images": 4

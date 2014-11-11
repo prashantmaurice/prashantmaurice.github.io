@@ -43,6 +43,14 @@
                         </div>
                     </div>
                 </div>
+                <hr>
+                <h5>Drop a mail  <span>(recommended)</span></h5>
+                <div class="row" style="padding:10px;">
+                    <div class="col-lg-12" style="padding:0px; padding-left:10px;color:#999">
+                        <span>Nothing beats dropping an email</span> :
+                        <span style="font-size: 14px; color:#31393c">sabertoothmaurice@gmail.com</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

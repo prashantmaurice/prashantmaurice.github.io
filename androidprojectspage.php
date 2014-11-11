@@ -33,7 +33,7 @@
                 </div>
 
                 <div style="background-color: #fff; padding:20px;margin-top: 20px;">
-                    <div id="mobileDescCont" style="color:#31393c"></div>
+                    <div id="mobileDescCont" style="color:#31393c">Select a project from the list to display its details</div>
                     <div id="apkfileLinkcont" style="display: none;background-color: #fff; padding:20px;padding-left:0px;margin-top: 20px; margin-bottom: 10px;width: inherit"><a>Download APK file</a></div>
                 </div>
 

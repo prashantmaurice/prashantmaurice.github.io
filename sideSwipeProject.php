@@ -22,7 +22,7 @@
                     <!--</div>-->
                 </div>
                 <?php
-                if($projects[$_GET["projectId"]]['videoLink']!=""){
+                if($projects[$_GET["projectId"]]['videoLink']!=null){
                     //echo '<h3>Video</h3>';
                     //echo '<hr>';
                     echo '<div class="video-container" style="width:100%;">';
@@ -38,8 +38,15 @@
                 ?>
             </div>
             <div class="col-lg-4" style="background-color: #ebedf2; height: 100%">
-                Description<br>
+                <div style="color: #09867C;font-size: 23px;padding-top: 40px;">DETAILS</div><br>
                 <?php echo $projects[$_GET["projectId"]]['description'] ?>
+
+                <?php if($projects[$_GET["projectId"]]['tools']!=null)
+                echo '<div style="color: #09867C;font-size: 20px;padding-top: 40px;">Tools used:</div><br>';
+                for ($x=0; $x<count($projects[$_GET["projectId"]]['tools']); $x++){
+                    echo $projects[$_GET["projectId"]]['tools'][$x].", ";
+                }
+                ?>
             </div>
 
         </div>
