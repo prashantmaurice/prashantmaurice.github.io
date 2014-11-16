@@ -4,14 +4,15 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li id="side-logo">MAURICE</li>
-            <li><a id="navbutton-aboutme" class="active">ABOUT ME</a></li>
-            <li><a id="navbutton-visualprojects">VISUALS</a></li>
-            <li><a id="navbutton-androidprojects">ANDROID</a></li>
-            <li><a id="navbutton-codeprojects">CODE</a></li>
-            <li><a id="navbutton-resume">RESUME</a></li>
-            <li><a id="navbutton-skills">SKILLS</a></li>
-            <li><a id="navbutton-showreel">SHOWREEL</a></li>
-            <li><a id="navbutton-contact">CONTACT</a></li>
+            <li><a id="navbutton-aboutme" class="active" data-tag="aboutme">ABOUT ME</a></li>
+            <li><a id="navbutton-visualprojects" data-tag="visuals">VISUALS</a></li>
+            <li><a id="navbutton-androidprojects" data-tag="android">ANDROID</a></li>
+            <li><a id="navbutton-codeprojects" data-tag="code">CODE</a></li>
+            <li><a id="navbutton-activity" data-tag="timeline">TIMELINE</a></li>
+            <li><a id="navbutton-resume" data-tag="resume">RESUME</a></li>
+            <li><a id="navbutton-skills" data-tag="skills">SKILLS</a></li>
+            <li><a id="navbutton-showreel" data-tag="showreel">SHOWREEL</a></li>
+            <li><a id="navbutton-contact" data-tag="contact">CONTACT</a></li>
             <li>
                 <div style="text-align: center">
                     <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/sabertoothmaurice">

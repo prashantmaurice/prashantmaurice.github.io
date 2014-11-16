@@ -1,18 +1,51 @@
 //-----------gallery big pics--------------------------------//
 var sideswipeOpen = false;
 $(document).ready(function() {
+    console.log("document ready called");
+
     $("#navbutton-visualprojects").click(function(e){loadPage("visualprojectspage.php",e);});
     $("#navbutton-androidprojects").click(function(e){loadPage("androidprojectspage.php",e);});
     $("#navbutton-codeprojects").click(function(e){loadPage("codeprojectspage.php",e);});
     $("#navbutton-skills").click(function(e){loadPage("skillspage.php",e);});
     $("#navbutton-resume").click(function(e){loadPage("resumepage.php",e);});
     $("#navbutton-showreel").click(function(e){loadPage("showreelpage.php",e);});
+    $("#navbutton-activity").click(function(e){loadPage("timelinepage.php",e);});
     $("#navbutton-aboutme").click(function(e){loadPage("aboutpage.php",e);});
     $("#navbutton-contact").click(function(e){loadPage("contactpage.php",e);});
     reloadFunctions();
+    initSubSite();
+
 });
+function initSubSite(){
+    var currpage = location.hash.substring(1).split('/')[0];
+    var currsubnav = location.hash.substring(1).split('/')[1];
+//    var page = location.hash.substring(1).split('/')[0];
+    console.log("TEST="+currpage);
+//    var project = location.hash.substring(1).split('-')[1];
+    if(currpage!=""){
+        $("ul li a[data-tag='"+currpage+"']")[0].click();
+        console.log("CLICKED:"+currpage);console.log($("ul li a[data-tag='"+currpage+"']"));
+    }
+    if(project!=null){
+        $("ul li [data-subnav='project"+project+"']")[0].click();
+    }
+}
+function updateTracker(page,subnav){
+//    console.log("ipdating tracker"+page+"="+subnav);
+    var currpage = location.hash.substring(1).split('/')[0];
+    var currsubnav = location.hash.substring(1).split('/')[1];
+    if(currpage!=page) currsubnav = "";
+    if(page!=null) currpage = page;
+    if(subnav!=null) currsubnav = subnav;
+    location.hash = currpage+"/"+currsubnav;
+}
 function reloadFunctions(){
 
+    $('.cbp_tmlabel').click(function(e){
+//        window.open($(e.currentTarget).data("link"), '_blank');
+//        window.location.href = window.location.href+"#";
+
+    });
     $('.mix').click(function(e){
         showSideswipe(e);
     });
@@ -51,16 +84,20 @@ function reloadFunctions(){
         $('#androidProjectMobiframe').attr('src',link);
         $('#apkfileLinkcont a').attr('href', 'apks/'+apk);
         $('#mobileDescCont').html(desc);
+        updateTracker(null,$(e.currentTarget).data("subnav"));
     });
 
     setwebpageIframeScales();
 }
-function loadPage(location,e){
+function loadPage(url,e){
+//    var page = location.hash.substring(1).split('-')[0];
+//    if(page!=$(e.target).data("tag"))location.hash = $(e.target).data("tag");
+    updateTracker($(e.target).data("tag"),null);
     $('#loadingCont').show();
     console.log('clicked');
     $('.side-nav>li>a').removeClass('active');
     $(e.target).addClass('active');
-    $.ajax({url:location,success:function(result){
+    $.ajax({url:url,success:function(result){
         $("#page-wrapper").html(result);
         reloadFunctions();
         console.log('loaded');

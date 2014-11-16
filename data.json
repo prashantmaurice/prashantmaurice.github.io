@@ -266,5 +266,34 @@
             "time":"sep 2013",
             "link":"http://wethechangemission.org/"
         }
+    ],
+    "activity": [
+        {
+            "body": "Updated Wethechangemission.org page. click to checkout the latest version",
+            "time": "2014-15-11",
+            "link": "http://wethechangemission.org/"
+        },
+        {
+            "body": "Made current portfolio design",
+            "time": "2013-02-11",
+            "link": "https://github.com/prashantmaurice/prashantmaurice.github.io"
+        },
+        {
+            "head": "Started a new Game development project",
+            "body": "Started a new multiplayer hybrid game for android/ios. Built using ionic/cordova framework. This game is backed by a node server which forms a stable message exchanger for communication between different users",
+            "time": "2014-10-10",
+            "link": "https://github.com/prashantmaurice/virol"
+        },
+        {
+            "head": "Started a new Open source Ionic project",
+            "body": "This is a hybrid app which can take your credit card as input can suggest all the nearby restaurents that have a offer on your card type. It uses phone's GPS location to get results based on location. Its is backed by a simple api served by a node server to serve curret deals and offers",
+            "time": "2014-28-10",
+            "link": "https://github.com/prashantmaurice/virol"
+        },
+        {
+            "body": "Exodus of this awesome portfolio page.",
+            "time": "2013-07-09",
+            "link": "https://github.com/prashantmaurice/prashantmaurice.github.io"
+        }
     ]
 }

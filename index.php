@@ -24,7 +24,7 @@
 <div id="wrapper">
     <?php include('nav.php'); ?>
     <div id="page-wrapper">
-        <?php include('aboutpage.php'); ?>
+        <?php include('activitypage.php'); ?>
     </div>
     <div id="sideswipe-shadow"></div>
     <div id="sideswipe-content">

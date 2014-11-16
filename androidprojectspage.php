@@ -13,11 +13,12 @@
                 <ul id="ProjectsList">
                     <?php
                         for ($x=1; $x<=$number; $x++) {
-                            echo '<li class="projectslist_li androidProject" data-apk="'.$projects[$x]['apk'].'" data-desc="'.$projects[$x]['description'].'"';
-                            echo 'data-link="'.$projects[$x]['link'].'" data-video="'.$projects[$x]['video'].'">';
-                    echo '<h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6>';
-                    echo '<br>'.$projects[$x]['oneliner'].'</li>';
-                    }
+                            echo '
+                            <li class="projectslist_li androidProject"
+                            data-apk="'.$projects[$x]['apk'].'"
+                            data-desc="'.$projects[$x]['description'].'" data-link="'.$projects[$x]['link'].'" data-video="'.$projects[$x]['video'].'" data-subnav="project'.$x.'">
+                    <h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6><br>'.$projects[$x]['oneliner'].'</li>';
+                        }
                     ?>
                 </ul>
             </div>
