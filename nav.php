@@ -8,7 +8,7 @@
             <li><a id="navbutton-visualprojects" data-tag="visuals">VISUALS</a></li>
             <li><a id="navbutton-androidprojects" data-tag="android">ANDROID</a></li>
             <li><a id="navbutton-codeprojects" data-tag="code">CODE</a></li>
-            <li><a id="navbutton-activity" data-tag="timeline">TIMELINE</a></li>
+            <li><a id="navbutton-timeline" data-tag="timeline">TIMELINE</a></li>
             <li><a id="navbutton-resume" data-tag="resume">RESUME</a></li>
             <li><a id="navbutton-skills" data-tag="skills">SKILLS</a></li>
             <li><a id="navbutton-showreel" data-tag="showreel">SHOWREEL</a></li>

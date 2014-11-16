@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("#navbutton-skills").click(function(e){loadPage("skillspage.php",e);});
     $("#navbutton-resume").click(function(e){loadPage("resumepage.php",e);});
     $("#navbutton-showreel").click(function(e){loadPage("showreelpage.php",e);});
-    $("#navbutton-activity").click(function(e){loadPage("timelinepage.php",e);});
+    $("#navbutton-timeline").click(function(e){loadPage("timelinepage.php",e);});
     $("#navbutton-aboutme").click(function(e){loadPage("aboutpage.php",e);});
     $("#navbutton-contact").click(function(e){loadPage("contactpage.php",e);});
     reloadFunctions();
