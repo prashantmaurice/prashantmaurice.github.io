@@ -203,7 +203,7 @@
             "description": "Android puzzle made using libGDX framework",
             "role": "Java Developer",
             "link":"",
-            "video":"",
+            "video":"//www.youtube.com/embed/3P9D5o0youY",
             "apk":"Flyp-android.apk"
         },
         {
@@ -301,8 +301,41 @@
         },
         {
             "body": "Exodus of this awesome portfolio page.",
-            "time": "2013-07-09",
+            "time": "2014-07-09",
             "link": "https://github.com/prashantmaurice/prashantmaurice.github.io"
+        },
+        {
+            "body": "Graduated from Indian Institute of Technology, Madras",
+            "time": "2014-01-05",
+            "link": "https://www.iitm.ac.in"
+        },
+        {
+            "body": "Built my first Android Game",
+            "time": "2014-26-03",
+            "link": "https://www.iitm.ac.in"
+        },
+        {
+            "head": "Completed project: Optimization of Genetic Algorithms",
+            "body": "I Developed a Hybrid Algorithm from Genetic and Newton-Raphson Algorithm with 10% less run-time from previous one. Not only that but also Customized algorithm to solve complex multi-variate functions with robustness and speed, developed in MATLAB",
+            "time": "2014-05-01",
+            "link": "https://www.iitm.ac.in"
+        },
+        {
+            "body": "Won my first Graphic Design competition",
+            "time": "2013-14-01",
+            "link": "https://in.linkedin.com/pub/dhara-prashant-maurice/5b/50/a0a/"
+        },
+        {
+            "head": "Completed project:  Hexapod Robot Base",
+            "body": "Developed a Hexapod robot base inspired from Terrestrial locomotion of Spiders Various concepts such as variable suspension, multi terrain mobility and adaptability, are successfully implemented.",
+            "time": "2013-14-01",
+            "link": "https://in.linkedin.com/pub/dhara-prashant-maurice/5b/50/a0a/"
+        },
+        {
+            "head": "Light Drawing Robot",
+            "body": "We were the First Indian student team to create light photography using Robots. Developed an Omni-wheeled Holonomic robot that can instantaneously move in any direction by velocity vectoring.",
+            "time": "2013-14-01",
+            "link": "https://in.linkedin.com/pub/dhara-prashant-maurice/5b/50/a0a/"
         }
     ]
 }

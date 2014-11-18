@@ -26,9 +26,9 @@ function initSubSite(){
         $("ul li a[data-tag='"+currpage+"']")[0].click();
         console.log("CLICKED:"+currpage);console.log($("ul li a[data-tag='"+currpage+"']"));
     }
-    if(project!=null){
-        $("ul li [data-subnav='project"+project+"']")[0].click();
-    }
+//    if(project!=null){
+//        $("ul li [data-subnav='project"+project+"']")[0].click();
+//    }
 }
 function updateTracker(page,subnav){
 //    console.log("ipdating tracker"+page+"="+subnav);
@@ -42,7 +42,7 @@ function updateTracker(page,subnav){
 function reloadFunctions(){
 
     $('.cbp_tmlabel').click(function(e){
-//        window.open($(e.currentTarget).data("link"), '_blank');
+        window.open($(e.currentTarget).data("link"), '_blank');
 //        window.location.href = window.location.href+"#";
 
     });
