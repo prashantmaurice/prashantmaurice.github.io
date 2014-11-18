@@ -1,0 +1,35 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="details" hide-nav-bar="false" >
+    <ion-content padding="true" style="padding-top: 0px; font-family: boldFont; color: #30455b; font-size: 0.9em">
+        <span style="font-size: 1.2em"> {{place.name}}</span>
+        <div class="list card">
+            <div class="item " style="color: #9ca5b4; font-size: 0.9em">
+                <span>
+                {{place.contact.formattedPhone}}</span><br>
+                <div>
+                {{place.location.formattedAddress.join(", ")}}</div><br>
+                <span>
+                distance = {{(place.distance/1000).toFixed(2)}}km</span><br>
+
+                <br><br>
+                <span style="color: #9ca5b4">Optimum card for Maximum Rewards</span>
+
+                <h2 style="color: #30455b">{{place.rewardwallet.bank}}</h2>
+                <h4 style="color: #30455b">{{wallet[place.rewardCardNum].type}}</h4>
+                rewards : {{place.rewards}}X
+
+                <!--<br><br>-->
+                <!--<span style="color: #9ca5b4">Optimum card for Maximum CashBack</span>-->
+
+                <!--<h2>{{wallet[place.cashbackCardNum].name}}</h2>-->
+                <!--<h4>{{wallet[place.cashbackCardNum].type}}</h4>-->
+                <!--rewards : {{place.cashback}}%-->
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

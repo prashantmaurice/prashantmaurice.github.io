@@ -162,6 +162,15 @@
             "projectName": "Leave this aside to eliminate confusion"
         },
         {
+            "projectName": "Recommend Me App",
+            "oneliner":  "A Credit cards based Restaurent suggestion App",
+            "description": "Built using Ionic/Cordova framework, It Mobile App takes input from user about their credit cards, takes their location and gets all relevant places you can visit which are holding offers or redeem points against your card. This uses Foursquare API to get restaurents and their ratings, and is backed by a node API server to serve all offers against Cards",
+            "role": "Lead Developer",
+            "link":"./projects/remindme/",
+            "video":"",
+            "apk":""
+        },
+        {
             "projectName": "Preburn Mobile Website",
             "oneliner":  "Made for startUp Preburn",
             "description": "Made for startUp Preburn",

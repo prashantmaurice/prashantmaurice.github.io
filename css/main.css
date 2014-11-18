@@ -494,6 +494,12 @@ ul.alert-dropdown {
     left: 45%;
     top: 0;
     margin: 11px 0 0 -8px;
+    -webkit-transition: box-shadow 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+    transition: box-shadow 0.2s, background-color 0.2s, transform 0.2s;
+}
+.cbp_tmtimeline > li .cbp_tmicon:hover{
+    background: #1dcac3;
+    box-shadow: 0 0 0 4px #fff;
 }
 
 /* The date/time */

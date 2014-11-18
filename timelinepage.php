@@ -22,7 +22,7 @@
 
                                 <!--<span>'.$time[0].':'.$time[1].'</span>-->
                             </time>
-                            <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                            <div class="cbp_tmicon"></div>
                             <div class="cbp_tmlabel" data-link="'.$projects[$x]['link'].'">
                                 '.$header.'
                                 <!--<h2>'.$projects[$x]['head'].'</h2>-->
