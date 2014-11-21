@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/home.css"/>
+<!-- 	<link rel="stylesheet" href="css/modern.css"/> -->
+<!-- 	<script src="js/tile-slider.js"></script> -->
+	<script src="js/jquery.js"></script>
+	<title>Syncwits</title>
+	<script>
+	  $(document).ready(function(){
+		load_data();
+	  });
+	  
+	  function load_data(){
+		var h = $("#home").height();
+		var w = $("#home").width();
+		var j=-1;
+		for(i=0; i<10; i++){
+		  if(i%3==0) j++;
+		  document.getElementById("home").innerHTML = document.getElementById("home").innerHTML+ "<div class='post' id='post"+i+"'></div>";
+		  $("#post"+i).css({"left":0.3*w*j+"px"});
+		}
+	  }
+	</script>
+  </head>
+  <body>
+  <div id="wrap">
+  
+	<div id = "top">
+	  <img id="settings" src = "img/settings.jpg"/>
+	  <img id="logo" src="img/logo.png"/>
+	</div>
+	<div id="main_contents">
+	  <div>
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="#">Library</a>
+		  <li><a href="#">Arena</a>
+		  <li><a href="#">Planner</a>
+		  <li><a href="#">Messages</a>
+		  <li class="pull-right">
+			<form class="navbar-search pull-left"><input type="text" class="search-query" placeholder="Search"></form>
+		  </li>
+		</ul>
+	  </div>
+	  
+<!-- 	Home stuff   -->
+	  <div id="home">
+		
+	  </div>
+	  
+	</div>
+	
+	<div id="push"></div>
+	</div>
+	
+	<div id="footer">
+	<div class="container">
+	  <p class="muted credit">(c) Syncwits.com</p>
+	</div>
+  </div>
+
+  </body>
+</html>
