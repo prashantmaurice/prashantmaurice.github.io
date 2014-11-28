@@ -86,6 +86,33 @@ function reloadFunctions(){
         $('#mobileDescCont').html(desc);
         updateTracker(null,$(e.currentTarget).data("subnav"));
     });
+    $('#contactForm').submit(function(e){
+        e.preventDefault();
+        var data = $('#contactForm').serializeArray();//This also works generally
+        var data = [
+            {"name":"name","value":$('#contactform_name').val()},
+            {"name":"email","value":$('#contactform_email').val()},
+            {"name":"subject","value":$('#contactform_subject').val()},
+            {"name":"message","value":$('#contactform_message').val()}
+        ];
+        console.log(data);
+        $.ajax({
+//            url:'http://localhost:8888/portfolio/',
+            url:'http://feedback.prashantmaurice.in/portfolio/',
+            jsonp: "callback",
+            contentType: "application/json;charset=utf-8",
+            dataType: 'jsonp',
+            crossDomain : true,
+            data:{formdata:data},
+            success:function(data){
+                console.log("SICCESSFULLY SUBMITTED"+JSON.stringify(data));
+                $('#contactform_name').val("");
+                $('#contactform_email').val("");
+                $('#contactform_subject').val("");
+                $('#contactform_message').val("");
+            }
+        });
+    });
 
     setwebpageIframeScales();
 }

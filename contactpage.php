@@ -18,31 +18,33 @@
                         <i class="fa fa-twitter"></i>Twitter</a>
                 </div>
                 <hr>
+                <form id="contactForm" action="www.google.com">
                 <h5>Drop a message</h5>
                 <div class="row" style="padding:10px;">
                     <div class="col-lg-6" style="padding:0px">
                         <div class="input-group input-group-custom">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input id="contactform_name" type="text" class="form-control" placeholder="Name">
                         </div>
                         <div class="input-group input-group-custom">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input type="text" class="form-control" placeholder="E-mail">
+                            <input id="contactform_email" type="text" class="form-control" placeholder="E-mail">
                         </div>
                         <div class="input-group input-group-custom">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input id="contactform_subject" type="text" class="form-control" placeholder="Subject">
                         </div>
                     </div>
                     <div class="col-lg-6" style="padding:0px">
                         <div class="input-group input-group-custom">
-                            <textarea type="text" class="form-control" placeholder="Message" style="resize:vertical;" rows="3"></textarea>
+                            <textarea id="contactform_message" type="text" class="form-control" placeholder="Message" style="resize:vertical;" rows="3"></textarea>
                         </div>
                         <div class="input-group input-group-custom">
                             <button type="submit" class="btn btn-primary submit-contact">Submit</button>
                         </div>
                     </div>
                 </div>
+                </form>
                 <hr>
                 <h5>Drop a mail  <span>(recommended)</span></h5>
                 <div class="row" style="padding:10px;">
