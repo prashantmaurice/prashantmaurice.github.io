@@ -1,5 +1,5 @@
 <?php
-    $data = file_get_contents('data.json');
+    $data = file_get_contents('data/data.json');
     $jsonData = json_decode($data,true);
     //var_dump($jsonData);
     $projects = $jsonData['androidprojects'];
@@ -27,7 +27,7 @@
             <div class="col-lg-9" style=" padding:10px; height: 100%">
                 <div style="height: 120%;margin: 0 auto;display: none" id="mobileiframeWrapper" >
                     <div id="phone-case">
-                        <iframe src="projects/preburnMobile/" id="androidProjectMobiframe" width="320" height="600" initial-scale="1"></iframe>
+                        <iframe src="../projects/preburnMobile" id="androidProjectMobiframe" width="320" height="600" initial-scale="1"></iframe>
                     </div>
 
                 </div>

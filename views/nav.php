@@ -4,15 +4,15 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li id="side-logo">MAURICE</li>
-            <li><a id="navbutton-aboutme" class="active" data-tag="aboutme">ABOUT ME</a></li>
-            <li><a id="navbutton-visualprojects" data-tag="visuals">VISUALS</a></li>
-            <li><a id="navbutton-androidprojects" data-tag="android">ANDROID</a></li>
-            <li><a id="navbutton-codeprojects" data-tag="code">CODE</a></li>
-            <li><a id="navbutton-timeline" data-tag="timeline">TIMELINE</a></li>
-            <li><a id="navbutton-resume" data-tag="resume">RESUME</a></li>
-            <li><a id="navbutton-skills" data-tag="skills">SKILLS</a></li>
-            <li><a id="navbutton-showreel" data-tag="showreel">SHOWREEL</a></li>
-            <li><a id="navbutton-contact" data-tag="contact">CONTACT</a></li>
+            <li><a id="navbutton-aboutme" class="active" href="index.php">ABOUT ME</a></li>
+            <li><a id="navbutton-visualprojects" href="visuals.php">VISUALS</a></li>
+            <li><a id="navbutton-androidprojects" href="android.php">ANDROID</a></li>
+            <li><a id="navbutton-codeprojects" href="code.php">CODE</a></li>
+            <li><a id="navbutton-timeline" href="timeline.php">TIMELINE</a></li>
+            <li><a id="navbutton-resume" href="resume.php">RESUME</a></li>
+            <li><a id="navbutton-skills" href="skills.php">SKILLS</a></li>
+            <li><a id="navbutton-showreel" href="showreel.php">SHOWREEL</a></li>
+            <li><a id="navbutton-contact" href="contact.php">CONTACT</a></li>
             <li>
                 <div style="text-align: center">
                     <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/sabertoothmaurice">

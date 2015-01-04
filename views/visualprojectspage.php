@@ -1,6 +1,6 @@
 <?php
 
-    $data = file_get_contents('data.json');
+    $data = file_get_contents('data/data.json');
     $jsonData = json_decode($data,true);
     //var_dump($jsonData);
     $projects = $jsonData['visualprojects'];
