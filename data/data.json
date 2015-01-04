@@ -245,9 +245,11 @@
     ],
     "codeprojects": [
         {
+            "code":"",
             "projectName": "Leave this aside to eliminate confusion"
         },
         {
+            "code":"preburn",
             "projectName": "Preburn Website",
             "description": "Made for startUp Preburn",
             "role": "Java Developer",
@@ -255,6 +257,7 @@
             "link":"http://www.preburn.in"
         },
         {
+            "code":"annapurna",
             "projectName": "Annapurna foundation",
             "description": "an NGO with over 26 centers in india",
             "role": "Tech lead",
@@ -262,6 +265,7 @@
             "link":"http://www.annapurnafoundation.com"
         },
         {
+            "code":"portfolio",
             "projectName": "Portfolio",
             "description": "2013 version",
             "role": "Developer",
@@ -269,6 +273,7 @@
             "link":"./v1/"
         },
         {
+            "code":"wtc",
             "projectName": "We the Change Mission",
             "description": "NGO",
             "role": "Tech Lead",
@@ -276,6 +281,7 @@
             "link":"http://wethechangemission.org/"
         },
         {
+            "code":"robbinbakers",
             "projectName": "Robbin bakers Website",
             "description": "Made for startUp Robbin Bakers pvt ltd, based in Guntur, India",
             "role": "Lead Web Developer",
