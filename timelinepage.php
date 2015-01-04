@@ -14,18 +14,16 @@
             for ($x=0; $x<$number; $x++) {
                 $temp_time = $projects[$x]['time'];
                 $date = explode("-",$temp_time);
-                $header = '<h2>'.$projects[$x]['head'].'</h2>';
-                if ($projects[$x]['head']=="") $header = "";
+                if (!isset($projects[$x]['head'])) $header = "";
+                else $header = '<h2>'.$projects[$x]['head'].'</h2>';
+//                if ($projects[$x]['head']=="") $header = "";
                 $temp = '<li>
                             <time class="cbp_tmtime" datetime="'.$temp_time.'">
                                 <span>'.(int)$date[1].' '.$months[(int)$date[2]-1].' '.$date[0].'</span>
-
-                                <!--<span>'.$time[0].':'.$time[1].'</span>-->
                             </time>
                             <div class="cbp_tmicon"></div>
                             <div class="cbp_tmlabel" data-link="'.$projects[$x]['link'].'">
                                 '.$header.'
-                                <!--<h2>'.$projects[$x]['head'].'</h2>-->
                                 <p>'.$projects[$x]['body'].'</p>
                             </div>
                         </li>';

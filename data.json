@@ -285,6 +285,16 @@
     ],
     "activity": [
         {
+            "body": "Released Wethechangemission.org version 2.0. click to checkout the latest version",
+            "time": "2015-05-01",
+            "link": "http://wethechangemission.org/v2/"
+        },
+        {
+            "body": "finished singleplayer AI for the game - Virol. click here to checkout the open source code for this project",
+            "time": "2014-30-12",
+            "link": "https://github.com/prashantmaurice/virol-libgdx"
+        },
+        {
             "body": "Updated Wethechangemission.org page. click to checkout the latest version",
             "time": "2014-15-11",
             "link": "http://wethechangemission.org/"
