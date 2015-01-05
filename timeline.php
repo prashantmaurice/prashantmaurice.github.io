@@ -22,6 +22,7 @@
 </head>
 <body>
 <div id="wrapper">
+    <?php $activePage = "timeline";//useful for nav color code?>
     <?php include('views/nav.php'); ?>
     <div id="page-wrapper">
         <?php include('views/timelinepage.php'); ?>

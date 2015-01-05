@@ -3,7 +3,7 @@
     <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
-            <li id="side-logo">MAURICE</li>
+            <a href="index.php"><li id="side-logo">MAURICE</li></a>
             <li><a <?php echo (($activePage=="about")?'class="active"':'')?> href="index.php">ABOUT ME</a></li>
             <li><a <?php echo (($activePage=="visuals")?'class="active"':'')?> href="visuals.php">VISUALS</a></li>
             <li><a <?php echo (($activePage=="android")?'class="active"':'')?> href="android.php">ANDROID</a></li>

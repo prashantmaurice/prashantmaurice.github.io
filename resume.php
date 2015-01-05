@@ -22,6 +22,7 @@
 </head>
 <body>
 <div id="wrapper">
+    <?php $activePage = "resume";//useful for nav color code?>
     <?php include('views/nav.php'); ?>
     <div id="page-wrapper">
         <?php include('views/resumepage.php'); ?>

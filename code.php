@@ -22,7 +22,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <?php $activePage = "android";//useful for nav color code?>
+    <?php $activePage = "code";//useful for nav color code?>
     <?php include('views/nav.php'); ?>
     <div id="page-wrapper">
         <?php include('views/codeprojectspage.php'); ?>
