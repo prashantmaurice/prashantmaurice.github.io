@@ -32,8 +32,9 @@
                     <?php
                         for ($x=1; $x<=$number; $x++) {
                             echo '<li class="projectslist_li  codeProject" data-link="'.$projects[$x]['link'].'">';
-                            echo '<h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6>';
-                            echo '<br>'.$projects[$x]['description'].'</li>';
+                            echo '<h4>'.$projects[$x]['projectName'].'</h4><h6>'.$projects[$x]['time'].'</h6><br><h5>'.$projects[$x]['description'].'<h5>';
+//                            echo '<h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6>';
+                            echo '</li>';
                         }
                     ?>
                 </ul>

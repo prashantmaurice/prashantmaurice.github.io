@@ -16,7 +16,6 @@
     }
 
 
-
 ?>
 
 <div id="androidprojects-page">

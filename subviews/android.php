@@ -12,7 +12,6 @@
             break;
         }
     }
-echo "REQUEST_URI".$_SERVER['REQUEST_URI'];
 ?>
 
 <div style="background-color: #fff; padding:20px;" class="container-fluid">
