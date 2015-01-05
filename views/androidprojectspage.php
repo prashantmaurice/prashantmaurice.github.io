@@ -1,13 +1,22 @@
 <?php
     $data = file_get_contents('data/data.json');
     $jsonData = json_decode($data,true);
-    //var_dump($jsonData);
-
     $projectToDisplay = (isset($_GET["project"])? $_GET["project"] : -1);
     $projects = $jsonData['androidprojects'];
     $number = count($projects)-1;
     //echo $projects[0]['projectName'];
-    echo $projectToDisplay;
+//    echo $projectToDisplay;
+
+    $projectId = 4;//default
+    for ($x=1; $x<=$number; $x++) {
+        if($projects[$x]['code'] == $projectToDisplay){
+            $projectId = $x;
+            break;
+        }
+    }
+
+
+
 ?>
 
 <div id="androidprojects-page">
@@ -20,10 +29,10 @@
                             if(!isset($projects[$x]['time'])) $var_time = "";
                             else $var_time = $projects[$x]['time'];
                             echo '
-                            <li class="projectslist_li androidProject"
+                            <a href="android.php?project='.$projects[$x]['code'].'"><li class="projectslist_li '.(($x==$projectId)?"active":"").' androidProject"
                             data-apk="'.$projects[$x]['apk'].'"
                             data-desc="'.$projects[$x]['description'].'" data-link="'.$projects[$x]['link'].'" data-video="'.$projects[$x]['video'].'" data-subnav="project'.$x.'">
-                            <h5>'.$projects[$x]['projectName'].'</h5><h6>'.$var_time.'</h6><br>'.$projects[$x]['oneliner'].'</li>';
+                            <h4>'.$projects[$x]['projectName'].'</h4><h6>'.$var_time.'</h6><br><h5>'.$projects[$x]['oneliner'].'<h5></li></a>';
                         }
                     ?>
                 </ul>

@@ -60,31 +60,31 @@ function reloadFunctions(){
     });
     $('#mobileiframeWrapper').width($('#mobileiframeWrapper').height()*0.50);
     $(".androidProject").click(function(e){
-        $('.androidProject').removeClass('active');
-        $(e.target).addClass('active');
-        var link = $(e.currentTarget).data("link");
-        var video = $(e.currentTarget).data("video");
-        var apk = $(e.currentTarget).data("apk");
-        var desc = $(e.currentTarget).data("desc");
-        $('#androidProjectVideo').show();
-        $('#mobileiframeWrapper').show();
-        $('#apkfileLinkcont').css('display','table-cell');
-
-
-        if(video==""){
-            $('#androidProjectVideo').css('display','none');
-        }
-        if(link==""){
-            $('#mobileiframeWrapper').css('display','none');
-        }
-        if(apk==""){
-            $('#apkfileLinkcont').css('display','none');
-        }
-        $('#androidProjectVideo').attr('src',video);
-        $('#androidProjectMobiframe').attr('src',link);
-        $('#apkfileLinkcont a').attr('href', 'apks/'+apk);
-        $('#mobileDescCont').html(desc);
-        updateTracker(null,$(e.currentTarget).data("subnav"));
+        //$('.androidProject').removeClass('active');
+        //$(e.target).addClass('active');
+        //var link = $(e.currentTarget).data("link");
+        //var video = $(e.currentTarget).data("video");
+        //var apk = $(e.currentTarget).data("apk");
+        //var desc = $(e.currentTarget).data("desc");
+        //$('#androidProjectVideo').show();
+        //$('#mobileiframeWrapper').show();
+        //$('#apkfileLinkcont').css('display','table-cell');
+        //
+        //
+        //if(video==""){
+        //    $('#androidProjectVideo').css('display','none');
+        //}
+        //if(link==""){
+        //    $('#mobileiframeWrapper').css('display','none');
+        //}
+        //if(apk==""){
+        //    $('#apkfileLinkcont').css('display','none');
+        //}
+        //$('#androidProjectVideo').attr('src',video);
+        //$('#androidProjectMobiframe').attr('src',link);
+        //$('#apkfileLinkcont a').attr('href', 'apks/'+apk);
+        //$('#mobileDescCont').html(desc);
+        //updateTracker(null,$(e.currentTarget).data("subnav"));
     });
     $('#contactForm').submit(function(e){
         e.preventDefault();
@@ -113,7 +113,8 @@ function reloadFunctions(){
             }
         });
     });
-
+    //var obj = $('#android-project-site-video').data('video');
+    //obj.attr('src','bah');
     setwebpageIframeScales();
 }
 function loadPage(url,e){

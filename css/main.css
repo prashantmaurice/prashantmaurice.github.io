@@ -305,11 +305,18 @@ ul.alert-dropdown {
     padding:20px;
     font-size: 12px;
 }
-.projectslist_li h5{
+.projectslist_li h4{
     padding:0px;
     margin:0px;
     color: #31393c;
     font-size: 14px;
+    display: inline-block;
+}
+.projectslist_li h5{
+    padding:0px;
+    margin:0px;
+    color: #999;
+    font-size: 12px;
     display: inline-block;
 }
 .projectslist_li.active{
@@ -328,10 +335,8 @@ ul.alert-dropdown {
 
 }
 #androidProjectMobiframe{
-    width:90%;
     margin-left: 5%;
     margin-top:26%;
-    height: 75%;
     overflow-x:hidden;
     overflow-y:hidden;
 }

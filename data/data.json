@@ -162,6 +162,7 @@
             "projectName": "Leave this aside to eliminate confusion"
         },
         {
+            "code":"recommendme",
             "projectName": "Recommend Me App",
             "oneliner":  "A Credit cards based Restaurent suggestion App",
             "description": "Built using Ionic/Cordova framework, It Mobile App takes input from user about their credit cards, takes their location and gets all relevant places you can visit which are holding offers or redeem points against your card. This uses Foursquare API to get restaurents and their ratings, and is backed by a node API server to serve all offers against Cards",
@@ -171,6 +172,7 @@
             "apk":""
         },
         {
+            "code":"preburnmobile",
             "projectName": "Preburn Mobile Website",
             "oneliner":  "Made for startUp Preburn",
             "description": "Made for startUp Preburn",
@@ -180,6 +182,7 @@
             "apk":""
         },
         {
+            "code":"boxed",
             "projectName": "BOXED",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
@@ -189,15 +192,17 @@
             "apk":"Boxed-android.apk"
         },
         {
+            "code":"dash",
             "projectName": "DASH",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
             "role": "Java Developer",
             "link":"",
-            "video":"//www.youtube.com/embed/_vImarmGbWk?list=UUwmyhFYwklURw5ByrhX6goA",
+            "video":"http://www.youtube.com/embed/_vImarmGbWk?list=UUwmyhFYwklURw5ByrhX6goA",
             "apk":"Dash.apk"
         },
         {
+            "code":"flyp",
             "projectName": "FLYP",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
@@ -207,6 +212,7 @@
             "apk":"Flyp-android.apk"
         },
         {
+            "code":"gyro",
             "projectName": "GYRO",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
@@ -216,6 +222,7 @@
             "apk":"gyro-maurice.apk"
         },
         {
+            "code":"planarity",
             "projectName": "PLANARITY",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
@@ -225,6 +232,7 @@
             "apk":"Planarity.apk"
         },
         {
+            "code":"speedboat",
             "projectName": "SPEEDBOAT",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
@@ -234,6 +242,7 @@
             "apk":"SpeedBoat.apk"
         },
         {
+            "code":"demonbird",
             "projectName": "DEMONBIRD",
             "oneliner": "Android game",
             "description": "Android puzzle made using libGDX framework",
