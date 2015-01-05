@@ -175,6 +175,7 @@ function hideSideswipe(){
 }
 function setwebpageIframeScales(){
     var width = $('#iframeWrapper').width();
+    console.log("iFRAME:width:"+width);
     $('#iframeWrapper').height(width/1.77);
     var factor = width/1000;
     $('#scaled-frame').css('height',1000/1.77);
@@ -182,6 +183,7 @@ function setwebpageIframeScales(){
     $('#scaled-frame').css('-moz-transform','scale('+factor+')');
     $('#scaled-frame').css('-o-transform','scale('+factor+')');
     $('#scaled-frame').css('-webkit-transform','scale('+factor+')');
+    console.log("iFRAME:factor:"+factor);
 
 }
 

@@ -2,10 +2,14 @@
     $data = file_get_contents('data/data.json');
     $jsonData = json_decode($data,true);
     //var_dump($jsonData);
+
+    $projectToDisplay = (isset($_GET["project"])? $_GET["project"] : -1);
     $projects = $jsonData['androidprojects'];
     $number = count($projects)-1;
     //echo $projects[0]['projectName'];
+    echo $projectToDisplay;
 ?>
+
 <div id="androidprojects-page">
     <div class="container-fluid" style="height:100%; padding:0px">
         <div class="row" style="height:100%; margin:0px">
@@ -25,21 +29,7 @@
                 </ul>
             </div>
             <div class="col-lg-9" style=" padding:10px; height: 100%">
-                <div style="height: 120%;margin: 0 auto;display: none" id="mobileiframeWrapper" >
-                    <div id="phone-case">
-                        <iframe src="../projects/preburnMobile" id="androidProjectMobiframe" width="320" height="600" initial-scale="1"></iframe>
-                    </div>
-
-                </div>
-                <div>
-                    <iframe id="androidProjectVideo" width="560" height="315" src="" frameborder="0" allowfullscreen style="display: none"></iframe>
-                </div>
-
-                <div style="background-color: #fff; padding:20px;margin-top: 20px;">
-                    <div id="mobileDescCont" style="color:#31393c">Select a project from the list to display its details</div>
-                    <div id="apkfileLinkcont" style="display: none;background-color: #fff; padding:20px;padding-left:0px;margin-top: 20px; margin-bottom: 10px;width: inherit"><a>Download APK file</a></div>
-                </div>
-
+                <?php include('subviews/android.php'); ?>
             </div>
         </div>
         <ul id="Grid" style="padding:0">

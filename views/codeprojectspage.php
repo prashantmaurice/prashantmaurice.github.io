@@ -1,10 +1,17 @@
 <?php
     $data = file_get_contents('data/data.json');
     $jsonData = json_decode($data,true);
-    //var_dump($jsonData);
     $projects = $jsonData['codeprojects'];
     $number = count($projects)-1;
-    //echo $projects[0]['projectName'];
+
+    $projectcode = (isset($_GET["project"])? $_GET["project"] : "");
+    for ($x=1; $x<=$number; $x++) {
+        $link = "";
+        if ($projects[$x]['code'] == $projectcode) {
+            $link = $projects[$x]['link'];
+            break;
+        }
+    }
 ?>
 <div id="androidprojects-page">
     <div class="container-fluid" style="height:100%; padding:0px">
@@ -31,11 +38,8 @@
                     ?>
                 </ul>
             </div>
-            <div class="col-lg-9" style=" padding:10px">
-                <!--<div id="wrapper"><iframe id="scaled-frame" src="http://preburn.in"></iframe></div>-->
-                <div style="" id="iframeWrapper">
-                    <iframe id="scaled-frame" src="../v1" width="100%" height="100%"></iframe>
-                </div>
+            <div class="col-lg-9" style=" padding:10px" id="codeRightCont">
+                <div id="iframeWrapper"><iframe id="scaled-frame" src="http://preburn.in"></iframe></div>
             </div>
         </div>
         <ul id="Grid" style="padding:0">
