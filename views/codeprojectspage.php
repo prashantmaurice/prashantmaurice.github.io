@@ -18,22 +18,10 @@
         <div class="row" style="height:100%; margin:0px">
             <div class="col-lg-3" style="height:100%; padding:0px">
                 <ul id="ProjectsList">
-                    <!--<li class="projectslist_li active" data-src="http://www.annapurnafoundation.com">-->
-                        <!--<h5>Heading</h5>-->
-                        <!--<h6>time</h6>-->
-                        <!--<br>asidcbyfisubyvi-->
-                    <!--</li>-->
-                    <!--<li class="projectslist_li">-->
-                        <!--<h5>Heading</h5>-->
-                        <!--<h6>time</h6>-->
-                        <!--<br>asidcbyfisubyvi-->
-                    <!--</li>-->
-
                     <?php
                         for ($x=1; $x<=$number; $x++) {
                             echo '<li class="projectslist_li  codeProject" data-link="'.$projects[$x]['link'].'">';
                             echo '<h4>'.$projects[$x]['projectName'].'</h4><h6>'.$projects[$x]['time'].'</h6><br><h5>'.$projects[$x]['description'].'<h5>';
-//                            echo '<h5>'.$projects[$x]['projectName'].'</h5><h6>'.$projects[$x]['time'].'</h6>';
                             echo '</li>';
                         }
                     ?>

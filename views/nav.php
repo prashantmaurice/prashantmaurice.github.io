@@ -23,8 +23,8 @@
                         <i class="fa fa-github"></i></a>
                     <a class="btn btn-social-icon btn-bitbucket" target="_blank" href="https://bitbucket.org/PrashantMaurice">
                         <i class="fa fa-bitbucket"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/MauricePrashant">
-                        <i class="fa fa-twitter"></i></a>
+<!--                    <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/MauricePrashant">-->
+<!--                        <i class="fa fa-twitter"></i></a>-->
                 </div>
             </li>
         </ul>
