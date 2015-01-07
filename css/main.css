@@ -323,6 +323,7 @@ ul.alert-dropdown {
 }
 .projectslist_li.active{
     background-color: #ebedf2;
+    border-right: 5px solid #27b2b1;
 }
 .projectslist_li h6{
     margin: 0px;
