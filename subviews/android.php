@@ -32,7 +32,10 @@
 
     <!--    <div id="mobileDescCont" style="color:#31393c">Select a project from the list to display its details</div>-->
         <div id="apkfileLinkcont" class="col-lg-12" style="display: <?php echo (($projects[$projectId]['apk']!="")? "visible" : "none");?>; padding:20px;">
-            <a href="<?php echo $projects[$projectId]['apk'] ?>">Download APK file</a>
+            <a href="<?php echo $projects[$projectId]['apk'] ?>">Download APK file</a><br>
+            <a style="display: <?php echo (isset($projects[$projectId]['git'])?'visible':'none'); ?>"
+               href="<?php echo $projects[$projectId]['git'] ?>"
+               target="_blank" >Watch Complete Project in GitHub</a>
         </div>
     </div>
 </div>

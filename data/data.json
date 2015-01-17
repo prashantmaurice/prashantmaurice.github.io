@@ -168,6 +168,7 @@
             "description": "Built using Ionic/Cordova framework, It Mobile App takes input from user about their credit cards, takes their location and gets all relevant places you can visit which are holding offers or redeem points against your card. This uses Foursquare API to get restaurents and their ratings, and is backed by a node API server to serve all offers against Cards",
             "role": "Lead Developer",
             "link":"./projects/remindme/",
+            "git":"https://github.com/prashantmaurice/remindme",
             "video":"",
             "apk":""
         },
@@ -189,6 +190,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"//www.youtube.com/embed/90WLSzPBCnM?list=UUwmyhFYwklURw5ByrhX6goA",
+            "git":"https://github.com/prashantmaurice/BoxedGame",
             "apk":"Boxed-android.apk"
         },
         {
@@ -199,6 +201,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"http://www.youtube.com/embed/_vImarmGbWk?list=UUwmyhFYwklURw5ByrhX6goA",
+            "git":"https://github.com/prashantmaurice/Dash",
             "apk":"Dash.apk"
         },
         {
@@ -209,6 +212,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"//www.youtube.com/embed/3P9D5o0youY",
+            "git":"https://github.com/prashantmaurice/Tyre",
             "apk":"Flyp-android.apk"
         },
         {
@@ -219,6 +223,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"//www.youtube.com/embed/aS3tjFiSUpE?list=UUwmyhFYwklURw5ByrhX6goA",
+            "git":"https://github.com/prashantmaurice/GyroGame",
             "apk":"gyro-maurice.apk"
         },
         {
@@ -229,6 +234,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"",
+            "git":"https://github.com/prashantmaurice/PlanarGame",
             "apk":"Planarity.apk"
         },
         {
@@ -239,6 +245,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"//www.youtube.com/embed/UDZOZaeZJNY?list=UUwmyhFYwklURw5ByrhX6goA",
+            "git":"https://github.com/prashantmaurice/SpeedBoat",
             "apk":"SpeedBoat.apk"
         },
         {
@@ -249,6 +256,7 @@
             "role": "Java Developer",
             "link":"",
             "video":"",
+            "git":"https://github.com/prashantmaurice/SpeedBoat",
             "apk":"DemonBird.apk"
         }
     ],
