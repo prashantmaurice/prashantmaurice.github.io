@@ -17,7 +17,7 @@
                 <div style="text-align: center">
                     <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/sabertoothmaurice">
                         <i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-linkedin" target="_blank" href="in.linkedin.com/pub/dhara-prashant-maurice/5b/50/a0a/">
+                    <a class="btn btn-social-icon btn-linkedin" target="_blank" href="http://in.linkedin.com/in/prashantmaurice">
                         <i class="fa fa-linkedin"></i></a>
                     <a class="btn btn-social-icon btn-github" target="_blank" href="https://github.com/prashantmaurice/">
                         <i class="fa fa-github"></i></a>
