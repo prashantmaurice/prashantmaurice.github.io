@@ -14,8 +14,8 @@
                         <i class="fa fa-github"></i>GitHub</a>
                     <a class="btn btn-social btn-bitbucket" target="_blank" href="https://bitbucket.org/PrashantMaurice">
                         <i class="fa fa-bitbucket"></i>BitBucket</a>
-                    <a class="btn btn-social btn-twitter" target="_blank" href="https://twitter.com/MauricePrashant">
-                        <i class="fa fa-twitter"></i>Twitter</a>
+<!--                    <a class="btn btn-social btn-twitter" target="_blank" href="https://twitter.com/MauricePrashant">-->
+<!--                        <i class="fa fa-twitter"></i>Twitter</a>-->
                 </div>
                 <hr>
                 <form id="contactForm" action="www.google.com">
