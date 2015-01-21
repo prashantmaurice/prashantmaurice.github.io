@@ -14,7 +14,6 @@
             break;
         }
     }
-echo $link;
 ?>
 
 <div id="androidprojects-page">
@@ -24,7 +23,6 @@ echo $link;
                 <ul id="ProjectsList">
                     <?php
                         for ($x=1; $x<=$number; $x++) {
-                            echo $projects[$x]['link'];
                             echo '<li class="projectslist_li '.(($x==$projectId)?"active":"").' codeProject" data-link="'.$projects[$x]['link'].'">';
                             echo '<h4>'.$projects[$x]['projectName'].'</h4><h6>'.$projects[$x]['time'].'</h6><br><h5>'.$projects[$x]['description'].'<h5>';
                             echo '</li>';
