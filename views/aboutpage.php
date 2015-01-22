@@ -5,7 +5,7 @@
             <div style="top:10%; position:relative">
                     <span style="font-size: 4em;">Hola,<br>
                     I am Prashant Maurice,</span><br>
-                <span style="font-size: 2em;">a {Web/Android} developer based in Bangalore</span>
+                <span style="font-size: 2em;">a passionate Full Stack developer based in Bangalore</span>
             </div>
         </div>
     </div>
